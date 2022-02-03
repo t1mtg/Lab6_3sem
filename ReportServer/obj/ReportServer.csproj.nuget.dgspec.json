@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\ReportServer\\ReportServer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\Client\\Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\Client\\Client.csproj",
+        "projectName": "Client",
+        "projectPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\BaHo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BaHo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\BaHo\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\BaHo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BaHo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\BaHo\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\ReportServer\\ReportServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\ReportServer\\ReportServer.csproj",
+        "projectName": "ReportServer",
+        "projectPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\ReportServer\\ReportServer.csproj",
+        "packagesPath": "C:\\Users\\BaHo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\ReportServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BaHo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\Client\\Client.csproj": {
+                "projectPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\Client\\Client.csproj"
+              },
+              "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\BaHo\\Documents\\GitHub\\t1mtg\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0-preview.1.20120.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\BaHo\\.dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

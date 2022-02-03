@@ -1,0 +1,1 @@
+{"$type":"System.Collections.Generic.List`1[[DTO.Task, DTO]], System.Private.CoreLib","$values":[{"$type":"DTO.Task, DTO","Id":"6c7e8a3e-5f85-4e04-a431-19e6fd418b96","Name":"realtimofeysone","EmployeeId":"8ffad55b-1dfc-4212-b642-4f5654052899","TaskStatus":0,"Comment":null,"CreationTime":"2022-01-17T22:42:09.5266496+03:00"}]}
